@@ -52,8 +52,8 @@ To generate a new Flask project skeleton
 python skeleton.py
 ```
 
-- You will be prompted to enter a project name (camel_case).
-- Then you will be prompted to enter the desired blueprints (camel_case, comma separated)
+- You will be prompted to enter a project name (snake_case).
+- Then you will be prompted to enter the desired blueprints (snake_case, comma separated)
 - Finally, you will be prompted to enter the dependencies you want to include (watch your spelling). If you leave this blank, the defaults will be added to requirements.txt
 
 - Open your new project in our favorite code editor, activate the venv ( `venv\Scripts\activate` on windows) and then run
