@@ -14,7 +14,6 @@ def create_skeleton():
     
     #TODO TODO-FIRST Update base_dir variable.
     # Note: can set base_dir = an absolute path, if desired (this is probably best practice)
-    # for the sake of uploading to Github, I've placed my skeleton.py in a 'skeleton' repo
     # if you're using a local path instead of an absolute one:
     # make sure you're running skeleton.py FROM THE DIRECTORY you want to create the base_dir in
     # ex: move it to a repos folder and run it from there, creating a subdirectory in repos with whatever name you set to base_dir
@@ -231,8 +230,8 @@ app = create_app()
 if __name__ == '__main__':
     app.run(debug=True)
                 
-# TODO activate venv by running venv/Scripts/activate <--- use forward slash not /
-# TODO install requirements by running pip install -r requirements.txt (once venv is activated)
+# TODO activate venv by running venv/Scripts/activate <--- use backslash, not /
+# TODO (once venv is activated) install requirements by running pip install -r requirements.txt 
 """)
 
     # Create config.py
