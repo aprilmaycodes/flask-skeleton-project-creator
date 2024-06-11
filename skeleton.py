@@ -12,7 +12,7 @@ def create_skeleton():
         dependencies = ['Flask', 'Flask-CKEditor', 'Flask-Mail', 'Flask-Login', 'Flask-Migrate', 
                         'Flask-SQLAlchemy', 'Flask-WTF', 'email_validator', 'python-dotenv']
     
-    #TODO Update base_dir variable.
+    #TODO TODO-FIRST Update base_dir variable.
     # Note: can set base_dir = an absolute path, if desired (this is probably best practice)
     # for the sake of uploading to Github, I've placed my skeleton.py in a 'skeleton' repo
     # if you're using a local path instead of an absolute one:
