@@ -56,7 +56,7 @@ python skeleton.py
 - Then you will be prompted to enter the desired blueprints (snake_case, comma separated)
 - Finally, you will be prompted to enter the dependencies you want to include (watch your spelling). If you leave this blank, the defaults will be added to requirements.txt
 
-- Open your new project in our favorite code editor, activate the venv ( `venv\Scripts\activate` on windows) and then run
+- Open your new project in your favorite code editor, activate the venv ( `venv\Scripts\activate` on windows) and then run
  ```bash
 pip install -r requirements.txt
 ```
