@@ -80,8 +80,8 @@ def create_skeleton():
 
             # Create blueprint routes.py
             with open (os.path.join(bp_dir, 'routes.py'), 'w') as f:
-                f.write(f"""from flask import Blueprint, redirect, url_for, flask, request, render_template
-{bp} = Blueprint('{bp}', __name__, template_foldere='templates', static_folder='static', static_url_path='/{bp}/static')
+                f.write(f"""from flask import Blueprint, redirect, url_for, flash, request, render_template
+{bp} = Blueprint('{bp}', __name__, template_folder='templates', static_folder='static', static_url_path='/{bp}/static')
 
 @{bp}.route('/{bp}_home')
 def {bp}_home():
